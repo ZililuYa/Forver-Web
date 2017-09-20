@@ -1,0 +1,115 @@
+.fheader {
+  position: fixed;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  width: 300px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.fheader .aMain {
+  width: 100%;
+}
+
+.fheader .aMain a {
+  padding: 10px 20px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  text-align: left;
+  transition-duration: 0.3s;
+}
+
+.fheader .aMain a:hover {
+  background-color: #f3f3f3;
+}
+
+.fheader .aMain a i {
+  float: right;
+}
+
+.fheader .logo {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.fheader .logo .img {
+  width: 45px;
+}
+
+.app {
+  padding: 50px;
+  padding-left: 350px;
+}
+.row.mom {
+  background-color: #fff;
+  padding: 30px;
+}
+.qun {
+  font-family: '微软雅黑';
+}
+
+.yanshi {
+  padding: 38px 50px 38px 50px;
+  margin-bottom: 20px;
+  background-color: #eee;
+  overflow: hidden;
+}
+.yanshi.type1 {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.yanshi.pt18{
+  padding-bottom: 29px;
+}
+.yanshi.not {
+  overflow: inherit;
+}
+
+.yanshi .form-control {
+  margin-bottom: 15px;
+}
+
+
+.spinner .form-control {
+  margin-bottom: 0;
+}
+.spinner {
+  margin-bottom: 15px;
+}
+
+
+#cnzz_stat_icon_5467125 {
+  position: absolute;
+  z-index: 99999;
+  right: 10px;
+  bottom: 10px;
+}
+
+body {
+  height: auto;
+  position: relative;
+  min-height: 100%;
+  overflow: inherit !important;
+}
+
+.canvas {
+  text-align: center;
+  background-color: #000;
+  position: relative;
+}
+.canvas .for {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial;
+}
+.canvas canvas {
+  width: 50%;
+}
