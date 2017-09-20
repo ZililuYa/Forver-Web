@@ -6,11 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var image = require('./routes/image');
-var seed = require('./routes/seed');
-var music = require('./routes/music');
-var users = require('./routes/users');
-var video = require('./routes/video');
 
 var app = express();
 
